@@ -16,7 +16,7 @@ class BookAuthor(models.Model):
                                      null=True)
 
     def __str__(self):
-        return f'ID: {self.id} | Name: {self.name}'
+        return f'ID: {self.id} | Name: {self.name} {self.surname}'
 
     class Meta:
         verbose_name = 'Автор книги'

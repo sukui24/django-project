@@ -1,0 +1,122 @@
+[
+    {
+        "model": "base.bookauthor",
+        "pk": 2,
+        "fields": {
+            "name": "James",
+            "pen_name": null,
+            "surname": "Haynes",
+            "birthday_date": "1955-08-23"
+        }
+    },
+    {
+        "model": "base.bookauthor",
+        "pk": 3,
+        "fields": {
+            "name": "Frank",
+            "pen_name": null,
+            "surname": "Herbert",
+            "birthday_date": "1920-10-08"
+        }
+    },
+    {
+        "model": "base.bookauthor",
+        "pk": 4,
+        "fields": {
+            "name": "Jennifer",
+            "pen_name": "J. Lynn",
+            "surname": "Armentrout",
+            "birthday_date": "1980-07-11"
+        }
+    },
+    {
+        "model": "base.bookgenre",
+        "pk": 2,
+        "fields": {
+            "genre": "Mystery",
+            "description": "Mystery is a fiction genre where the nature of an event, usually a murder or other crime, remains mysterious until the end of the story. Often within a closed circle of suspects, each suspect is usually provided with a credible motive and a reasonable opportunity for committing the crime."
+        }
+    },
+    {
+        "model": "base.bookgenre",
+        "pk": 3,
+        "fields": {
+            "genre": "Science fiction",
+            "description": "Science fiction often feels similar to fantasy in that it is characterized by new worlds and made-up species of characters. Where science fiction differs from fantasy is its heavy reliance on science at technology, both of which lay at the root of all science fiction stories. The worlds portrayed in science fiction stories are not made up of fantastical creatures, but rather of those created or discovered through science."
+        }
+    },
+    {
+        "model": "base.bookgenre",
+        "pk": 4,
+        "fields": {
+            "genre": "Historical fiction",
+            "description": "Historical fiction refers to books that take place in the past. These books typically center around imaginary characters experiencing real historical events. Historical fiction is often enriched by historically accurate details from the specific time period. The goal of historical fiction is to maintain authenticity around the time period, with a focus on accurately portraying customs, traditions, and events of the time. It is not uncommon in historical fiction for fictional characters to interact with real-life figures. One of the best examples of historical fiction is the wealth of World War II-era books that have been released in recent years."
+        }
+    },
+    {
+        "model": "base.booklanguage",
+        "pk": 1,
+        "fields": {
+            "language": "English"
+        }
+    },
+    {
+        "model": "base.booklanguage",
+        "pk": 2,
+        "fields": {
+            "language": "Ukranian"
+        }
+    },
+    {
+        "model": "base.book",
+        "pk": 2,
+        "fields": {
+            "title": "Sparrow",
+            "author": 2,
+            "description": "Synopsis\r\n\r\nA Sunday Times Book of the Year\r\n\r\n'A stunning work of historical imagination . . . masterful in its portrayal of love, sex and friendship' - The Observer\r\n\r\n'Sparrow [is] truly unforgettable' Ц Daily Mail\r\n\r\nMeet Jacob Ц aka Sparrow Ц a boy slave in the Spanish city of New Carthage in the last years of pagan Rome.\r\n\r\nRaised in a brothel at the edge of a dying empire, a boy of no known origin creates his own identity. He is Sparrow, who sings without reason and can fly from trouble. His world is a kitchen, a herb-scented garden, a loud and dangerous tavern, and the mysterious upstairs where the СwolvesТ Ц prostitutes and slaves from every corner of the empire Ц conduct their business.\r\n\r\nHe spends his days listening to stories told by his beloved СmotherТ Euterpe, running errands for her lover the cook, and dodging the blows of their brutal overseer and the machinations of the chief wolf, Melpomene. A hard fate awaits Sparrow, one that involves suffering, murder, mayhem, and the scattering of the women who have been his whole world . . .\r\n\r\nIn Sparrow, James Hynes brings the entirety of the Roman city of Carthago Nova Ц its markets, temples, taverns of the lowly and mansions of the rich Ц to vivid, brutal life.\r\n\r\n'Hynes renders this hidden world so powerfully and vividly.' Ц The Guardian",
+            "book_genre": 4,
+            "page_count": 464,
+            "language": 1,
+            "book_created_at": "2023-05-04"
+        }
+    },
+    {
+        "model": "base.book",
+        "pk": 3,
+        "fields": {
+            "title": "Dune",
+            "author": 3,
+            "description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the УspiceФ melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...\r\n\r\nWhen House Atreides is betrayed, the destruction of PaulТs family will set the boy on a journey toward a destiny greater than he could ever have imagined. And as he evolves into the mysterious man known as MuadТDib, he will bring to fruition humankindТs most ancient and unattainable dream.",
+            "book_genre": 3,
+            "page_count": 658,
+            "language": 1,
+            "book_created_at": "1965-06-01"
+        }
+    },
+    {
+        "model": "base.book",
+        "pk": 4,
+        "fields": {
+            "title": "Dune Messiah",
+            "author": 3,
+            "description": "Book Two in the Magnificent Dune Chronicles--the Bestselling Science Fiction Adventure of All Time\r\n\r\nDune Messiah continues the story of Paul Atreides, better known--and feared--as the man christened Muad'Dib. As Emperor of the Known Universe, he possesses more power than a single man was ever meant to wield. Worshipped as a religious icon by the fanatical Fremens, Paul faces the enmity of the political houses he displaced when he assumed the throne--and a conspiracy conducted within his own sphere of influence.\r\n\r\nAnd even as House Atreides begins to crumble around him from the machinations of his enemies, the true threat to Paul comes to his lover, Chani, and the unborn heir to his family's dynasty...\r\n\r\nIncludes an introduction by Brian Herbert",
+            "book_genre": 3,
+            "page_count": 337,
+            "language": 1,
+            "book_created_at": "1969-07-01"
+        }
+    },
+    {
+        "model": "base.book",
+        "pk": 5,
+        "fields": {
+            "title": "Blood and Ashes. Book 1. From Blood and Ashes",
+            "author": 4,
+            "description": "Penellafi Balfour, also known as Makivka, is not just the orphaned daughter of wealthy individuals close to the royal family, but she is also the Maiden. Maidens are prepared for an important religious ritual, deeply revered and zealously guarded. Makivka, therefore, grew up in abundance but lacks personal freedom. She is bound by the rigid frames of rules, yet she clandestinely breaks them all: she learns martial arts, helps those less fortunate, secretly goes for walks in the city, and more. During one of these excursions, Makivka, disguised, encounters a handsome stranger. He mistakes her for a servant with whom he has an appointmentЧa diversion that Maidens could only dream of. Soon, this handsome stranger finds himself in the castle where Makivka lives and becomes... her new personal guardian. The girl is, of course, shocked. However, this is just the beginning of incredible adventures that make her doubt almost everything she knows about humanity.",
+            "book_genre": 2,
+            "page_count": 608,
+            "language": 2,
+            "book_created_at": "2020-03-30"
+        }
+    }
+]
