@@ -1,4 +1,5 @@
 from rest_framework.serializers import ModelSerializer
+
 from base.models import Book, BookAuthor, BookGenre, BookLanguage
 
 
@@ -9,6 +10,10 @@ class BookSerializer(ModelSerializer):
         fields = '__all__'
 
     def to_representation(self, instance):
+        """
+        Changed representation of some fields to show readable value
+        instead of variable ID
+        """
         representation = super().to_representation(instance)
         representation['author'] = instance.author.name
         representation['book_genre'] = instance.book_genre.genre
