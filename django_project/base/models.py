@@ -21,6 +21,7 @@ class BookAuthor(models.Model):
     class Meta:
         verbose_name = 'Автор книги'
         verbose_name_plural = 'Автори книги'
+        ordering = ['-id']
 
 
 class BookGenre(models.Model):
@@ -36,6 +37,7 @@ class BookGenre(models.Model):
     class Meta:
         verbose_name = 'Жанр книги'
         verbose_name_plural = 'Жанри книг'
+        ordering = ['-id']
 
 
 class BookLanguage(models.Model):
@@ -50,6 +52,7 @@ class BookLanguage(models.Model):
     class Meta:
         verbose_name = 'Мова'
         verbose_name_plural = 'Мови'
+        ordering = ['-id']
 
 
 class Book(models.Model):
@@ -82,3 +85,4 @@ class Book(models.Model):
     class Meta:
         verbose_name = 'Книга'
         verbose_name_plural = 'Книги'
+        ordering = ['-id']
